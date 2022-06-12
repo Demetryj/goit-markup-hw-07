@@ -33,36 +33,37 @@ body {
   background-color: #ffffff;
 }
 
-.container {
+/* .container {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-}
+} */
 
 /* header */
-.header {
+/* .header {
   padding-top: 24px;
   padding-bottom: 25px;
 
   background-color: #ffffff;
 
   border-bottom: 1px solid #ececec;
-}
+} */
 
-.navigator {
+/* .navigator {
   display: flex;
   align-items: center;
-}
+} */
 
-.box {
+/* header__container */
+/* .box {
   display: flex;
   align-items: center;
-}
+} */
 
 /* навігація по сторінці */
 
-.logo {
+/* .logo {
   margin-right: 93px;
 
   font-family: Raleway, sans-serif;
@@ -73,13 +74,13 @@ body {
   text-decoration: none;
 
   color: #000000;
-}
+} */
 
-.logo-color {
+/* .logo-color {
   color: #2196f3;
-}
+} */
 
-.link-studio {
+/* .link-studio {
   position: relative;
 
   font-weight: 500;
@@ -89,9 +90,9 @@ body {
   text-decoration: none;
 
   color: #2196f3;
-}
+} */
 
-.link-studio::after {
+/* .link-studio::after {
   content: '';
 
   position: absolute;
@@ -104,9 +105,9 @@ body {
 
   background-color: #2196f3;
   border-radius: 2px;
-}
+} */
 
-.link-portfolio,
+/* .link-portfolio,
 .link-contacts {
   font-weight: 500;
   font-size: 14px;
@@ -119,40 +120,43 @@ body {
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
-.link-studio:hover,
+/* .link-studio:hover,
 .link-studio:focus,
 .link-portfolio:hover,
 .link-portfolio:focus,
 .link-contacts:hover,
 .link-contacts:focus {
   color: var(--accent-color);
-}
+} */
 
-.link {
+/* nav */
+/* .link {
   display: flex;
   padding-left: 0;
   margin-top: 0;
   margin-bottom: 0;
-}
+} */
 
-.link-page:not(:last-child) {
+/* .link-page:not(:last-child) {
   margin-right: 50px;
-}
+} */
 
 /* контакти */
 
-.mail-tel {
+/* feedback */
+
+/* .mail-tel {
   display: flex;
 
   padding: 0;
   margin: 0 0 0 auto;
 
   align-items: center;
-}
+} */
 
-.mail-tel .mail,
+/* .mail-tel .mail,
 .mail-tel .tel {
   display: flex;
   align-items: center;
@@ -169,29 +173,29 @@ body {
   transition-property: color, fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
-.mail:hover,
+/* .mail:hover,
 .mail:focus,
 .tel:hover,
 .tel:focus {
   color: var(--accent-color);
   fill: var(--accent-color);
-}
+} */
 
-.icon-mail {
+/* .icon-mail {
   margin-right: 10px;
   fill: inherit;
-}
+} */
 
-.link,
+/* .link,
 .mail-tel {
   list-style: none;
-}
+} */
 
-.mail-tel-link:not(:last-child) {
+/* .mail-tel-link:not(:last-child) {
   margin-right: 50px;
-}
+} */
 
 /* main */
 
