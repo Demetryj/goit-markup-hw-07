@@ -1,9 +1,9 @@
 .logo {
   margin-right: 93px;
 
-  @include logo-color(#000000);
+  @extend %logo;
 
-  &__color {
-    color: #2196f3;
+  &__header {
+    color: #000000;
   }
 }
